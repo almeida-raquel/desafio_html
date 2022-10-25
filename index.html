@@ -1,0 +1,125 @@
+<html>
+    <head>
+         <title>Página principal</title>
+    </head>
+    <body>
+        <h1 id="inicio">HTML na Prática</h1>
+        <hr>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+            <li><a href="#inspetor">Inspetor de elementos</a></li>
+            <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+            <li><a href="#falando">Falando sobre tags</a></li>
+            <li><a href="#atributos">Atributos das tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Listas ordenadas e não ordenadas</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+        <h3 id="ferramentas">Ferramentas utilizadas</h3>
+         <p>Neste curso, a ferramenta utilizada para desenvolvimento web é o Visual Code Studio. O VS Code, como também é conhecido, é open source e de fácil instalação em qualquer sistema operacional.</p> 
+         <p>Além disso, para iniciar a edição de textos é importante fazer também o download da extensão Live Server, para aumentar as funcionalidades do Visual Studio Code e adequá-lo para o desenvolvimento da página web.</p>
+
+
+        <h3 id="inspetor">Inspetor de elementos</h3>
+         <p>A ferramenta inspetor de elementos é fornecida pelo próprio navegador que está sendo utilizado, podendo ser acessada através do comando “F12” no teclado ou também através da opção <strong><strong>mais ferramentas</strong></strong> na barra superior do navegador. Este console oferece vários recursos que mostram como a página foi feita. É possível também realizar algumas alterações na forma como o site está sendo exibido exclusivamente no seu browser.</p>
+
+
+        <h3 id=estrutura>Estrutura básica do HTML</h3>
+         <p>Com a ferramenta VS Code configurada, cria-se um arquivo chamado “index.html” para iniciar o processo de desenvolvimento. No HTML, utilizam-se tags de marcação para estruturar os textos que serão escritos na montagem da página.<p/> 
+         <p>A base principal é formada pelas tags <i>html, head e body</i>. A tag <i>head</i> permite que informações sejam carregadas antes de exibir para o usuário, já a tag <i>body</i> exibirá para o usuário o que estiver delimitado por ela.</p>
+
+
+        <h3 id="falando">Falando sobre tags</h3>
+         <p>Existem tags responsáveis por alterar a aparência dos textos que estão sendo escritos, são elas:</p>
+         <p><strong><i>i</i></strong> - texto em itálico;</p> 
+         <p><strong><i>strong</i></strong> - texto em negrito;</p>
+         <p><strong><i>input type= “”></i></strong> - cria campos para que informações sejam digitadas, sendo possível escolher o tipo de informação que será digitada neste campo.</p>
+
+
+        <h3 id="atributos">Atributos das tags</h3>
+         <p>Tratam-se das propriedades que uma tag pode possuir.</p>
+         <p>É possível alterar especificamente o conteúdo de uma parte do código utilizando <i>“id”</i>. Existe também uma maneira de formatar um código CSS, chama-se <i>“style”</i>. Através de sua utilização, é possível alterar a aparência de um código, mudando cor e tipo de fonte. Utilizando o comando “class” permite padronizar tudo o que estiver denominado com o mesmo título. O atributo <i><strong>img src=””/</strong></i> permite que imagens sejam adicionadas à página, sendo possível configurar a dimensão da imagem adicionada através da utilização do <i>width</i>.</p>
+
+
+        <h3 id="textos">Textos</h3>
+        <h4>Atributos de texto</h4>
+        <h5>Cabeçalhos</h5>
+         <p>HTML possui cabeçalhos que são representados pela letra <i><strong>“h”</strong></i>. Existem as tags <i><strong>h1</strong></i> até <i><strong></strong>h6</strong></i>, cada uma representa um nível de cabeçalho, sendo o mais importante o representado pela tag <i><strong>“h1”</strong></i>.</p>
+         <h5>Parágrafos</h5>
+         <p>O corpo do texto que será escrito é representado pela tag <i><strong>p</strong></i>, que se refere a parágrafos.</p>
+        <h5>Citações</h5>
+         <p>É possível inserir citações no texto através da tag <i><strong>blockquote</strong></i>; sendo assim, o que estiver entre estas tags será uma citação. Por exemplo:
+         <blockquote>"O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos."</blockquote></p>
+        <h5>Destacar texto</h5>
+         <p>Para destacar uma parte do texto com a cor amarelo, basta utilizar a tag <i><strong>mark</strong></i>.</p>
+         <p>Por exemplo: <mark>HTML</mark></p> 
+        <h5>Texto superscrito</h5>
+         <p>A tag <i><strong>sup</strong></i> permite colocar letras ou palavras escritas acima de qualquer palavra ou número desejados.</p>
+         <p>Por exemplo: 9<sup>2</sup></p>
+        <h5>Texto subscrito</h5>
+         <p>A tag <i><strong>sub</strong></i> permite colocar letras ou palavras escritas abaixo de qualquer palavra ou número desejados.</p>
+         <p>Por exemplo: CO<sub>2</sub></p>
+        <h5>Texto sublinhado</h5>
+         <p>Para sublinhar um texto ou palavra, utiliza-se a tag <i><strong>u</strong></i>.</p>
+         <p>Por exemplo: <u>HTML</u>.</p>
+        <h5>Comentários e informações secundárias</h5>
+         <p>A tag <i><strong>small</strong></i> é utilizada para inserir um comentário ou informação de copyright.</p>
+         <p>Por exemplo: <small>HTML</small>.</p>
+        <h5>Estilo e aparência do texto</h5>
+         <p>É possível definir atributos como fonte e cor de um texto através da tag <i><strong>style</strong></i>. Ficaria da seguinte forma:</p>
+         <p style="color:red">Cor do texto.</p>
+         <p>É possível representar abreviações, utilizando a tag <i><strong>abr</strong></i>:</p>
+         <p>A <abbr title="Home Box Office">HBO</abbr> foi fundada em 1972.</p>
+         <p>Para escrever um texto com uma parte "apagada", utiliza-se a tag <i><strong>del</strong></i>.</p>
+         <p>Minha cor favorita é <del>preto</del> <ins>vermelho</ins>!</p>
+
+
+        <h3 id="listas">Listas ordenadas e não ordenadas</h3>
+         <p>Temos duas opções de listas, as ordenadas e as não ordenadas. Para que os itens inseridos nas listas sejam identificados, é necessário utilizar a tag <i><strong>li</strong></i>.</p>
+          <h4>Listas ordenadas</h4>
+           <p>São representadas pelo elemento <i><strong>ol</strong></i>, terão seus itens ordenados por uma contagem que os precede, sendo em numerais ou algarismos romanos. Por exemplo:</p>
+          <ol>
+             <li>Item 1</li>
+             <li>Item 2</li>
+             <li>Item 3</li>
+          </ol>
+         <h4>Listas não ordenadas</h4>
+          <p>São representadas pelo elemento <i><strong>ul</strong></i>, terão seus itens precedidos por marcadores, não apresentando contagem ou ordenamento. Por exemplo:</p>
+         <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+         </ul>
+
+
+        <h3 id=links>Links</h3>
+         <p>Para linkar páginas umas nas outras, utiliza-se a tag <i><strong>a - âncora</strong></i>.
+            Utilizando a tag: <i><strong>a href=”</strong></i>
+            </p>
+
+            
+        <h3 id=referencias>Referências</h3>
+        <ul>
+            <li>
+                <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank" rel="noopener noreferrer">O que é HTML</a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">HTML Tutorial</a>
+            </li>
+            <li>
+                <a href="https://getbootstrap.com.br/docs/4.1/content/typography/" target="_blank" rel="noopener noreferrer">Tipografia</a>
+            </li>
+        </ul>
+        
+
+
+
+
+
+           
+        
+        
+    </body>
+</html>
